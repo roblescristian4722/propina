@@ -26,7 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Propina from './Propina';
+import Propina from './Views/Propina';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
