@@ -25,6 +25,7 @@ export default class InputBox extends Component {
             <View style={[ style.container, this.props.style ]}>
                 <TextInput
                     placeholder={this.props.placeholder}
+                    placeholderTextColor='#949494'
                     style={[ style.base, this.style() ]}
                     keyboardType='number-pad'
                     onChangeText={this.props.callback}
@@ -45,6 +46,9 @@ const style = StyleSheet.create({
         marginTop: 20,
         fontSize: 24,
         borderRadius: 10,
+        color: 'white',
+        paddingLeft: 10,
+        paddingRight: 10,
     },
     validInput: {
         borderColor: 'white',
